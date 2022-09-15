@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #82D9A0;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to bottom , #41D976, #1B5936);
+    border-radius: auto;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.247);
+}
+header > p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.24);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+nav > a:hover {
+    background-color: #82D9A0;
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+}
+main {
+    text-align: center;
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.274);
+}
+
+h1#secundario {
+    font-family: 'idroid';
+    color: #1B5936;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: lighter;
+    text-align: left;  
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+a {
+    color: #1B5936;
+    text-decoration: none;
+}
+
+strong {
+    color: #1B5936;
+}
+
+section > h2 {
+    font-family: 'idroid', Times, serif;
+    font-weight: lighter;
+    text-align: left;
+    margin: 4px;
+    color: #1B5936;
+    background-image: linear-gradient(to right, #54d180b6, #82d9a09a, #f2f2f25e);
+}
+
+iframe {
+    display: block;
+    width: 92%;
+    background-color: #1B5936;
+    padding: 5%;
+    margin: -10px;
+    height: 452px;
+}
+
+section#extra {
+    background-color: #82d9a060;
+    border-radius: 15px;
+    width: 95%;
+    padding: 8px;
+    margin: 18px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.205);
+}
+
+section#extra > h2 {
+    background-color: #1B5936;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    padding: 1%;
+    margin: -10px;
+}
+
+ul {
+    text-align: left;
+}
+li {
+    list-style-type: none;
+}
+li::before{
+    content: '✔ ';
+
+}
+li:nth-child(odd) {
+    clear: both;
+    float: left;
+    width: 50%;
+}
+footer {
+    width: 100%;
+    background-color: #1B5936;
+    color: white;
+    text-align: center;
+}
